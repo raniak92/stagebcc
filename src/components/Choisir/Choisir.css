@@ -1,0 +1,16 @@
+.section-choisir{
+    background-color: aquamarine;
+}
+.choisir-title{
+    text-align: center;
+}
+p {
+    display: none;
+}
+.section-choisir .choi-menu  :hover p{display: block;
+    position: absolute;
+    background-color:rgb(121, 27, 40); ;
+margin-top: 15px;
+margin-left: -15px;
+
+}

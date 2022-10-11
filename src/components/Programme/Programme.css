@@ -1,0 +1,22 @@
+.prog{
+    background-color: aqua;
+}
+.card-body{
+    margin-bottom: 0!important;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+.title {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -1px;
+}
+.card-body.card1.card2 {
+    display: flex;
+    justify-content: space-between;  
+}

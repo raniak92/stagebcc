@@ -1,0 +1,32 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+*{
+margin: 0;
+padding:0; }
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:#7a2048;
+}
+.container{
+  max-width: 1240;
+  margin: auto;
+}
+.btn{
+  color: white;
+  padding: 12px 24px;
+  background-color:#7a2048 ;
+  border: none;
+  font-size: 1rem;
+transition: .4s ;  
+cursor: pointer;
+ }
+ .btn:active{
+transform: translate(4px);
+border-bottom: none;
+box-shadow:0px 0px 0px rgba(0, 0, 0, .2) ;
+ }
+ 
